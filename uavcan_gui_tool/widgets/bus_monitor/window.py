@@ -10,8 +10,8 @@ import datetime
 import time
 import os
 from functools import partial
-import uavcan
-from uavcan.driver import CANFrame
+import pyuavcan_v0 as uavcan
+from pyuavcan_v0.driver import CANFrame
 from PyQt5.QtWidgets import QMainWindow, QHeaderView, QLabel, QSplitter, QSizePolicy, QWidget, QHBoxLayout, \
     QPlainTextEdit, QDialog, QVBoxLayout, QMenu, QAction
 from PyQt5.QtGui import QColor, QIcon, QTextOption

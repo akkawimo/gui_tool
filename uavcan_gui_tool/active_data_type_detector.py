@@ -7,7 +7,7 @@
 #
 
 import logging
-import uavcan
+import pyuavcan_v0 as uavcan
 from PyQt5.QtCore import pyqtSignal, QObject
 
 

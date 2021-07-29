@@ -6,8 +6,8 @@
 # Author: Pavel Kirienko <pavel.kirienko@zubax.com>
 #
 
-import uavcan
-from uavcan.transport import Transfer, Frame
+import pyuavcan_v0 as uavcan
+from pyuavcan_v0.transport import Transfer, Frame
 
 # How many rows will be traversed while looking for beginning/end of a multi frame transfer
 TABLE_TRAVERSING_RANGE = 2000

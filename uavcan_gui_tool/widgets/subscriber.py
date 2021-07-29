@@ -7,7 +7,7 @@
 #
 
 import time
-import uavcan
+import pyuavcan_v0 as uavcan
 import logging
 import queue
 from PyQt5.QtWidgets import QWidget, QDialog, QPlainTextEdit, QSpinBox, QHBoxLayout, QVBoxLayout, QComboBox, \

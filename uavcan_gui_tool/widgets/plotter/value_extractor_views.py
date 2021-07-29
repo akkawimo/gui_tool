@@ -6,7 +6,7 @@
 # Author: Pavel Kirienko <pavel.kirienko@zubax.com>
 #
 
-import uavcan
+import pyuavcan_v0 as uavcan
 from PyQt5.QtWidgets import QDialog, QWidget, QLabel, QHBoxLayout, QGroupBox, QVBoxLayout, QLineEdit, QSpinBox, \
     QColorDialog, QComboBox, QCompleter, QCheckBox, QApplication
 from PyQt5.QtGui import QColor, QPalette, QFontMetrics

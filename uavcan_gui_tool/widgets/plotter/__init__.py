@@ -9,7 +9,7 @@
 import os
 import sys
 import queue
-import uavcan
+import pyuavcan_v0 as uavcan
 import logging
 import multiprocessing
 from PyQt5.QtWidgets import QApplication

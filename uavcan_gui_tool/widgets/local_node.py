@@ -6,7 +6,7 @@
 # Author: Pavel Kirienko <pavel.kirienko@zubax.com>
 #
 
-import uavcan
+import pyuavcan_v0 as uavcan
 from PyQt5.QtWidgets import QGroupBox, QLabel, QSpinBox, QHBoxLayout
 from PyQt5.QtCore import QTimer
 from logging import getLogger

@@ -7,7 +7,7 @@
 #
 
 import datetime
-import uavcan
+import pyuavcan_v0 as uavcan
 from . import BasicTable, get_monospace_font
 from PyQt5.QtWidgets import QGroupBox, QVBoxLayout, QHeaderView, QLabel
 from PyQt5.QtCore import Qt, QTimer, pyqtSignal

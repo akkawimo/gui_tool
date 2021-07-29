@@ -59,7 +59,7 @@ if multiprocessing.get_start_method(True) != 'spawn':
 #
 # Importing other stuff once the logging has been configured
 #
-import uavcan
+import pyuavcan_v0 as uavcan
 
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QSplitter, QAction
 from PyQt5.QtGui import QKeySequence, QDesktopServices
